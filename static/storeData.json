@@ -1,0 +1,51 @@
+{
+  "formList": [
+    {
+      "id": "quality-control-inspection",
+      "api": "quality-control-inspection-forms",
+      "icon": "J_App_Icons_V1-01.svg",
+      "name": "Quality Control Inspection",
+      "componentName": "qualityControlInspection",
+      "children": ["pre-occupation"]
+    },
+    {
+      "hidden": true,
+      "id": "pre-occupation",
+      "api": "pre-occupation-forms",
+      "icon": "J_App_Icons_V1-01.svg",
+      "name": "Pre-Occupation Form",
+      "componentName": "preOccupation"
+    },
+    {
+      "id": "workplace-safety-inspection",
+      "api": "workplace-safety-inspection-forms",
+      "icon": "J_App_Icons_V1-02.svg",
+      "name": "Workplace Safety Inspection",
+      "componentName": "workplaceSafetyInspection"
+    },
+    {
+      "id": "heating-controls-handover",
+      "api": "heating-controls-handover-forms",
+      "icon": "J_App_Icons_V1-03.svg",
+      "name": "Heating Controls Handover",
+      "componentName": "heatingControlsHandover"
+    },
+    {
+      "id": "ladder-list",
+      "api": "ladder-list-forms",
+      "icon": "J_App_Icons_V1-04.svg",
+      "name": "Ladder Lists",
+      "subheading": "Work at Height Register",
+      "componentName": "ladderList",
+      "warning": true
+    },
+    {
+      "id": "toolbox-talk",
+      "api": "toolbox-talk-forms",
+      "icon": "J_App_Icons_V1-05.svg",
+      "name": "Toolbox Talk",
+      "componentName": "toolboxTalk",
+      "requires": ["office employee", "administrator"]
+    }
+  ]
+}
